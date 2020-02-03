@@ -26,9 +26,9 @@ end
 
 def list_of_directors(source)
   # Write this implementation
-  list = []
+  list = {}
   source.each do |director|
-    list.push(director)
+    list[director] = 0
   end
 end
 
