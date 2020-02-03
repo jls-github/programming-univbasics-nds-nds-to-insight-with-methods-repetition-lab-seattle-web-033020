@@ -30,6 +30,7 @@ def list_of_directors(source)
   source.each do |director|
     list.push(director[:name])
   end
+  return list
 end
 
 def total_gross(source)
